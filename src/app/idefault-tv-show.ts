@@ -1,12 +1,13 @@
 export interface IDefaultTVShow {
 name: string
 rating: string
+type: string
 language: string
 runtime: 30
 country: string
-date: Date
+premiered: Date
 image: string
-description: string
+summary: string
 
 
 }

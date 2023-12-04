@@ -10,11 +10,12 @@ export class DefaultTvShowComponent {
 current: IDefaultTVShow = {
 name: '',
 rating: '',
+type: '',
 language: '',
 runtime: 30,
 country: '',
-date: new Date(),
+premiered: new Date(),
 image: '',
-description:'',
+summary:'',
 }
 }
